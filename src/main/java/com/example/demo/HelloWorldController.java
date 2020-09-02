@@ -2,6 +2,7 @@ package com.example.demo;
 
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:4200") // FrontEnd sunucumuzdan gelen isteklere izin verdik.
 @RestController //Controller -> Http isteklerini işleyeceği bir denetleyicidir.
 public class HelloWorldController {
 
